@@ -1,0 +1,63 @@
+.viewdatacont {
+    transform: translateY(90px);
+    display: flex;
+    flex-direction: column;
+    background-color: #121212; /* Dark theme background */
+    color: #920404; /* White text for contrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:1100px) {
+    .viewdatacont {
+        transform: translateY(10px);
+    }
+}
+
+.topfilterbar {
+    width: 98vw;
+    margin: auto;
+    background-color: #1e1e1e; /* Slightly lighter dark background */
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.cardsofincident {
+    margin: 30px;
+    padding: 15px;
+    background-color: #222; /* Darker card background */
+    border: 1px solid #ff4081; /* Red-pink border for emphasis */
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(255, 64, 129, 0.2);
+}
+
+.viewdatafooter {
+    transform: translateY(80px);
+    background-color: #000; /* Footer with solid black */
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Red theme alternative */
+.red-theme {
+    background-color: #2a0000; /* Dark red background */
+    color: #ffdddd; /* Lighter red text */
+}
+
+.red-theme .topfilterbar {
+    background-color: #550000;
+    color: #ffdddd;
+}
+
+.red-theme .cardsofincident {
+    background-color: #400000;
+    border: 1px solid #ff0000;
+    box-shadow: 0px 3px 6px rgba(255, 0, 0, 0.3);
+}
+
+.red-theme .viewdatafooter {
+    background-color: #300000;
+    color: #ffdddd;
+}
